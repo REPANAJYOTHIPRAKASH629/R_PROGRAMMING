@@ -1,0 +1,8 @@
+factor1 <- factor(c("A","B","C"))
+factor2 <- factor(c("X","Y","z"))
+char_vector1 <- as.character(factor1)
+char_vector2 <- as.character(factor2)
+combined_vector <- c(char_vector1,char_vector2)
+print(combined_vector)
+combined_vector <- c(combined_vector)
+print(combined_vector)

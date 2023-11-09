@@ -1,0 +1,5 @@
+name <- c("Alice", "Bob", "Charlie", "David", "Eve")
+age <- c(25, 30, 22, 28, 26)
+score <- c(95, 88, 75, 91, 82)
+data_frame <- data.frame(Name = name, Age = age, Score = score)
+print(data_frame)
